@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    background: #ffffff url("img/Aranie\ Nixe.jpg") no-repeat 100% 0;
+    background-size: cover;
+    outline: 2px solid white;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 20px;
+    padding-top: 15px;
+  }
+  
+  main {
+    display: flex;
+  }
+
+  footer {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  h1 {
+    width: 260px;
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+  }
+  
+  h2 {
+    width: 260px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  li {
+    width: 260px;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+  .main-page {
+      /*background-color: black;*/
+  }
+
+  .offcenter {
+      margin: 0 auto;
+      width: 90%;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-size: 72px; 
+      color: rgb(243, 180, 117);
+  }
+
+  .page-title {
+    text-align: center;   
+    margin-bottom: 40px;
+  }
+
+  .pics {
+      outline: 2px solid black;
+      width: 90%;
+      display: block;
+  }
+
+  .toggle {
+      max-width: 25%;
+      /*margin-top: 25px;*/
+  }
+
+  .class-title {
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: forestgreen;
+    outline: 2px dashed black;
+    background-color: #BEA084;
+    padding-top: 0px;
+    padding-left: 5px;
+  }
+
+  .visible {
+      visibility: visible;
+      opacity: 1;
+      transition: all .3s ease-out;
+
+  }
+
+  .hidden {
+      visibility: hidden;
+      opacity: 0;
+  }
+
+  .guess {
+      margin-top: 50px;
+      margin-bottom: 25px;
+  }
